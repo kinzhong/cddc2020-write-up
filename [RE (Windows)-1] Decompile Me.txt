@@ -1,0 +1,47 @@
+
+[RE (Windows)-1] Decompile Me
+203
+GATE 5
+157 SOLVES
+
+DESCRIPTION
+Hello py2exe, nice to meet you!
+
+MD5("DecompileMe.zip"): 3805ccecd327d3cfcfdcc12c1ce7891b
+
+ATTACHED FILES
+DecompileMe.zip
+
+Based on the hint (py2exe) and (Decompile Me) and the files within DecompileMe.zip such as files with extension of .pyd, we can conclude that the exe was compiled using py2win and should be decompiled to obtain the flag.
+Using unpy2exe (https://github.com/matiasb/unpy2exe), the pyc file is obtained.
+This can then be converted to a .py file using Uncompyle6 (https://pypi.org/project/uncompyle6/)
+Reading the file will give us the flag.
+
+import ctypes
+FLAG = 'CDDC20'
+FLAG += '{'
+FLAG += 'N'
+FLAG += 'i'
+FLAG += 'C'
+FLAG += 'e'
+FLAG += '-'
+FLAG += '2'
+FLAG += '-'
+FLAG += 'M'
+FLAG += 'e'
+FLAG += 'e'
+FLAG += 'T'
+FLAG += '-'
+FLAG += 'p'
+FLAG += 'y'
+FLAG += '2'
+FLAG += 'e'
+FLAG += 'x'
+FLAG += 'e'
+FLAG += '~'                                                                                                                                                                                                                                
+FLAG += ':'                                                                                                                                                                                                                                
+FLAG += 'D'                                                                                                                                                                                                                                
+FLAG += '}'
+
+FLAG: CDDC20{NiCe-2-Meet-py2exe~:D}
+

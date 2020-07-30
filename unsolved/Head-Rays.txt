@@ -1,0 +1,14 @@
+
+Head-Rays
+988
+GATE 3
+16 SOLVES
+
+DESCRIPTION
+Hex-Rays? We don't need it :P
+We have something better: Head-Rays!
+
+MD5("head-rays"): 3e04050d39b08c9d658603c932abd5b4
+
+ATTACHED FILES
+head-rays

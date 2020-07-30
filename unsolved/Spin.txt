@@ -1,0 +1,13 @@
+
+Spin
+990
+GATE 3
+12 SOLVES
+
+DESCRIPTION
+Let's spin @_@
+
+MD5("Spin.exe"): a7137a5a13d6997516c5942ce2719d51
+
+ATTACHED FILES
+Spin.exe

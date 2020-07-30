@@ -1,0 +1,16 @@
+
+BACK TO SCHOOL
+986
+GATE 3
+20 SOLVES
+
+DESCRIPTION
+The CTO of Unduplicitous Corp has decided to send his minions for an "Intensive AI Training Course". We wonder what is the curriculum all about...
+
+Note:
+The extracted data does not include the flag format "CDDC20{}". Add in the flag format "CDDC20{}" during submission and ensure that the flag string is fully in uppercase, i.e. CDDC20{SAMPLEFLAG}.
+
+MD5("BTS"): 5a106d87330f0bede1d0993e5200ea28
+
+ATTACHED FILES
+BTS

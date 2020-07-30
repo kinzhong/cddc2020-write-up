@@ -1,0 +1,18 @@
+
+[Misc-2] ARGH
+141
+GATE 5
+179 SOLVES
+
+DESCRIPTION
+I found a binary, together with this long string that looks like some password. I wonder what is it for...
+
+Key: GZ2gXZ3bD2qqNyNxXb5LJ8HfHQtTL5VHA
+
+MD5("myprog"): e6c76a1dbc54005fdd2c1203e117d514
+
+ATTACHED FILES
+myprog
+
+Simple enough
+FLAG: CDDC20{c0mManD_l1n3_ArguM3n75sSs}

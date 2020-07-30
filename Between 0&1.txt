@@ -1,0 +1,37 @@
+
+Between 0&1
+859
+GATE 4
+74 SOLVES
+
+DESCRIPTION
+While Unduplicitous Corp was conducting Incident Response on several legacy PCs, our trusty Insider, Resistance Fighter XAE found some weird activity on the PC.
+
+Let's investigate.
+
+You don't need to download everything, please use only 1 link.
+DOWNLOAD 1 (DUMP FILE)
+DOWNLOAD 2
+DOWNLOAD 3
+DOWNLOAD 4
+DOWNLOAD 5
+
+MD5("dump"): 571c1cd18c862a2f602f6633af1c7c0c
+
+ATTACHED FILES
+None
+
+Initially thought its a boot record file based on binwalk
+Identified as memory dump after using volatility
+Identify profile of image: volatility imageinfo -f dump 
+follow cheatsheet to obtain more information while using --profile=WinXPSP2x86
+flag can be found using this command:
+volatility consoles -f dump --profile=WinXPSP2x86
+DUMP: 01000011010001000100010001000011001100100011000001111011010001010111011000110001
+01100100011001010110111001100011011001010101111101001000001100010110010001100100
+01100101011011100101111101000010011001010111010001110111011001010110010101101110
+0101111100110000001001100011000101111101 
+FLAG: CDDC20{Ev1dence_H1dden_Between_0&1}
+
+Also works:
+volatility notepad -f dump --profile=WinXPSP2x86

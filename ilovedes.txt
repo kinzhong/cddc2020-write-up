@@ -1,0 +1,16 @@
+
+ilovedes
+525
+GATE 4
+114 SOLVES
+
+DESCRIPTION
+I heard that the CFO of Unduplicitous Corp loves using DES to encrypt his data, LOL.
+
+MD5("secret.dat"): da0e4d339b8265938587848a52758819
+
+ATTACHED FILES
+secret.dat
+
+Decrypt file using "ilovedes" as the key. GRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+FLAG: CDDC20{i_l0v3_5yMmetR1c_EnCryp7i0N}

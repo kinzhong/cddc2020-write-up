@@ -1,0 +1,27 @@
+
+[Forensics-2] Shell History
+127
+GATE 5
+189 SOLVES
+
+DESCRIPTION
+What happened to my server? Please help me to investigate.
+
+Username: root / Password: toor
+
+You don't need to download everything, please use only 1 link.
+DOWNLOAD 1
+DOWNLOAD 2
+DOWNLOAD 3
+DOWNLOAD 4
+DOWNLOAD 5
+
+MD5("Shell History.ova"): 051736c88e59eb57e3a1fff65ffa40e8
+
+ATTACHED FILES
+None
+
+Since the user and pass are given, this hints towards opening the ova file as a vm
+once in the VM we can use the command history to obtain the flag
+the title "Shell History" hints to that
+FLAG: CDDC20{CDDC20{Sh4LL_we_Sh3LL?}}

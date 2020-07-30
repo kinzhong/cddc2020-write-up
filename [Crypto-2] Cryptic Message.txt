@@ -1,0 +1,21 @@
+
+[Crypto-2] Cryptic Message
+122
+GATE 5
+193 SOLVES
+
+DESCRIPTION
+We are not sure what is this gibberish all about, hmm. Can you help us to decode this message?
+
+hq hm kbq jipoox yhnnhatoq qb abkmqjtaq p mijhim bn hknijikaim, ipaS yidikyikq tdbk hqm djIyiaimmbJ pky ipas mhcdoi hk hqmion. hn, pnqij ybhkg mb, bkI mhcdox rkbarm btq poo qsi aikQjpo hknijikaim pky djimikqm bki'm ptyhikai vhqs qsi mqpjqhkg-dbhkq pky qsi abkaoTmhbk, bki cpx dJbytai p mqpjqohKg, qsbtgs dbmmhlox p cijiqjhahbtM, inniaq.
+
+Note:
+Decrypted text does not include the flag format "CDDC20{}". Add in the flag format "CDDC20{}" during submission, and ensure that the flag string is fully in uppercase, i.e. CDDC20{SAMPLEFLAG}.
+
+ATTACHED FILES
+None
+
+Throw original text in online cipher solver and obtain the key used in the cipher
+Obtain captial letter from original text and decrypt captial letters.
+Captial letters: SIJIQTJKM
+Flag: HERETURNS

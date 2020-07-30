@@ -1,0 +1,66 @@
+
+[RE (Windows)-3] Cheat Me
+811
+GATE 5
+82 SOLVES
+
+DESCRIPTION
+Be patient :) Then you can get what you want.
+
+MD5("CheatMe.exe"): 643477053b88fcbae453e46ea31174f2
+
+ATTACHED FILES
+CheatMe.exe
+
+Executing the file in a sandbox enviroment, we can observe that the file is counting down from 24 hours. 
+The assumption made is that after the count down is up, the flag would be given.
+Using Ghidra, we can follow the flow of the program to understand what the program is doing.
+To do so, we have to find the entry function and follow the function calls it makes. Another way is to search for "No cheating".
+In function FUN_00401040, we see a loop, which can be broken out by patching it by changing the instructions. Example shown below.
+
+Original:
+if (((DAT_00403018 == 0) && (DAT_00403394 == 0)) && (DAT_00403398 == 0)) break; 
+
+Modified:
+if (((DAT_00403018 != 0) && (DAT_00403394 != 0)) && (DAT_00403398 != 0)) break;
+
+This modified binary does bring us to the flag page but does not give us the correct flag. Wrong Flag: =>>=,*uN+]e'N*]eYN+]e'N*]ew
+
+This leads me to believe that the program uses the variables (DAT_00403018, DAT_00403394, DAT_00403398) to generate the flag.
+
+Cleaned up code:
+  while( true ) {
+    Sleep(1000);
+    system("cls");
+    uVar5 = (undefined)unaff_EDI;
+    if (second == -1) {
+      if ((minute < 1) && (hour < 1)) {
+        second = 0;
+      }
+      else {
+        minute = minute + -1;
+        second = 0x3b;
+      }
+    }
+    if (minute == -1) {
+      if (hour < 1) {
+        minute = 0;
+      }
+      else {
+        hour = hour + -1;
+        minute = 0x3b;
+      }
+    }
+    if (((hour == 0) && (minute == 0)) && (second == 0)) break;
+
+To speed up the process, the second and minute are changed to 0 instead of 0x3b(59)
+This makes it count down from 24 seconds rather than 24 hours.
+
+Output when completed:
+[!W!A!R!N!I!N!G!] No cheating
+# This program is running the CHEATING PREVENTION SYSTEM. #
+
+        Good Job!
+                CDDC20{T1ck-T0ck_T1ck-T0ck}
+
+FLAG: CDDC20{T1ck-T0ck_T1ck-T0ck}

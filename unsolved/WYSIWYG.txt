@@ -1,0 +1,16 @@
+
+WYSIWYG
+961
+GATE 4
+43 SOLVES
+
+DESCRIPTION
+Do you have HACKER's 3y3?
+
+Note:
+The flag does not include the CDDC20{....} format. Please include the format during your submission.
+
+MD5("HACKER.3y3"): 0b1e56f33e1f0da3912b54e3045e624a
+
+ATTACHED FILES
+HACKER.3y3

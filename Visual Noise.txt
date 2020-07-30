@@ -1,0 +1,20 @@
+
+Visual Noise
+276
+GATE 4
+143 SOLVES
+
+DESCRIPTION
+I intercepted some emails from Unduplicitous Corp, that had these pictures attached to them. Looks like visual noise but then again, I can't be sure....
+
+MD5("so-noisy.png"): 0ec6ae0ccba7aa6e9a5726b186bcde9e
+MD5("much-confusing.png"): aa685b5a77aae415cc85ae0dcb8048d3
+
+ATTACHED FILES
+so-noisy.png
+much-confusing.png
+
+Since both images have the same dimensions, the flag may be obtained by combining the images or overlaying them.
+This can be done using stegsolve. 
+To speed up the process, can use online OCR (Optical Character Recognition)
+FLAG: CDDC20{V1suAl_CrYPTO_ _s0_53cuRE} 

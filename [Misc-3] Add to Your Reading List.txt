@@ -1,0 +1,20 @@
+
+[Misc-3] Add to Your Reading List
+151
+GATE 5
+174 SOLVES
+
+DESCRIPTION
+As part of our resistance fighters' training program, we need to arm ourselves with academic knowledge. By the graces of my kind senior, he passed me some recommended reading materials.
+
+One pdf seems to be annotated, while the other isn't. I wonder what is the difference between the two.. Can you spot it?
+
+MD5("Reading_Material.zip"): c2218f912755a9a741ec169ddc4e47d4
+
+ATTACHED FILES
+Reading_Material.zip
+
+Compare the 2 pdf, the annotated PDF has special characters. 
+Using an online pdf comparator, the flag is found in the differences. 
+Sorry, too lazy to repeat doing it.
+

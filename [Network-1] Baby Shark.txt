@@ -1,0 +1,21 @@
+
+[Network-1] Baby Shark
+121
+GATE 5
+194 SOLVES
+
+DESCRIPTION
+Recently the Resistance Fighters have discovered this new thing called Wireshark, it seems to be some kind of tool used for analysing network packets.
+
+We tried to capture a little snippet of traffic while browsing the web just to check out its capabilities. Let's check out what it can do.
+
+MD5("easy.pcap"): aa16be8f7032586d5bfc675e9ac8e982
+
+ATTACHED FILES
+easy.pcap
+
+
+Open in wireshark for analysis. All http packets are unencrypted. 
+Export all http objects. Flag is in Confidential.pdf
+
+FLAG: CDDC20{TLP_RED_EYES_ONLY}

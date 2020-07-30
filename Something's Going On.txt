@@ -1,0 +1,22 @@
+
+Something's Going On
+824
+GATE 4
+80 SOLVES
+
+DESCRIPTION
+Looks like we found a hidden secret left behind by one of the Resistance Fighters while they were snooping around Unduplicitous Corp's network.
+
+All we have to go on is this pcap file. How about it? Can you discover its secret?
+
+MD5("analyse.pcap"): 5f76953e753ffd56eae5532d63b7a391
+
+ATTACHED FILES
+analyse.pcap
+
+Looking at the pcap we can see an attack going on.
+The attacker obtains some files using FTP including secret.bin
+The attacker performs an attack on the apache server and obtains private key
+Flag can be obtained by decrypting secret.bin using private key
+This is done using openssl rsault
+FLAG:CDDC20{STOP_STRUTTING_AROUND}

@@ -1,0 +1,32 @@
+
+My Favourite Music
+964
+GATE 3
+41 SOLVES
+
+DESCRIPTION
+We found a suspicous WAV file in Unduplicitous Corp's server. Hmm.
+
+Note:
+The extracted data does not include the flag format "CDDC20{}". Add in the flag format "CDDC20{}" during submission, and ensure that the flag string is fully in uppercase, i.e. CDDC20{SAMPLEFLAG}.
+
+MD5("original.wav"): f3b55bc341bd8039ffc125cee163b1dc
+MD5("suspicious.wav"): c3844b40b7d25ca414020f60f826512a
+
+ATTACHED FILES
+original.wav
+suspicious.wav
+
+
+Originally during the session, by comparing the hex values of the files, it was observed that there were many slight differences in the hex values (+1/-1 of the hex values).
+For example, in the original, the hex was 00 and in the suspicious it was 01. 
+Therefore, i suspected that the flag was hidden through these differences where +1 was a binary value of 1 and -1 was a binary of 0 (or vice versa)
+However, this was not the case.
+
+Getting some hints from a friend after the CTF was over, we should observe the files in audacity. 
+To obtain the flag, we have to invert the suspicious.wav and mix and render it with the original.
+This will yield a wav file which looks like morse code and translating it will obtain the flag.
+Morse Code: __ ___ ._. ... . ._.. ... _...
+FLAG: MORSELSB
+
+Please note that as the CTF was over, the obtained flag above is not verified.

@@ -1,0 +1,21 @@
+
+[Crypto-3] Iffy Glyphs
+133
+GATE 5
+184 SOLVES
+
+DESCRIPTION
+At first glance this looks like a kid's drawing, but my astute detective instincts tells me otherwise...
+
+Note:
+Decrypted text does not include the flag format "CDDC20{}". Add in the flag format "CDDC20{}" during submission, and ensure that the flag string is fully in uppercase, i.e. CDDC20{SAMPLEFLAG}.
+
+MD5("what_is_this.PNG"): 7e50efc4fdaa62b906823f1fee457491
+
+ATTACHED FILES
+what_is_this.PNG
+
+looks like a coded message where each person is a letter.
+reverse search the img. 
+shd be able to see some similar images that shows that it is a "Sherlock Holmes' secret code" 
+FLAG: WELOVETODANCEANDCODEALLDAYLONG

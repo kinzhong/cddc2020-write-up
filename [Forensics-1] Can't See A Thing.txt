@@ -1,0 +1,23 @@
+
+[Forensics-1] Can't See A Thing
+116
+GATE 5
+200 SOLVES
+
+DESCRIPTION
+What kind of lousy photographer takes terrible pictures like these?
+
+MD5("img.jpg"): 4bdba9f047cb651b3645cfe6a41666ba
+
+ATTACHED FILES
+img.jpg
+
+the title gives a clue that the flag might be hidden via color manipulation.
+Throwing the file into https://aperisolve.fr/ gives us the flag under the exifTool.
+02CDDC{yhp4rg07ohp_5i_EmOs3wa}
+
+However, the format is mirrored as seen with 02CDDC --> CDDC20
+
+FLAG: CDDC20{aw3sOmE_i5_pho70gr4phy}
+
+

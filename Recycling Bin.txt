@@ -1,0 +1,20 @@
+
+Recycling Bin
+427
+GATE 4
+124 SOLVES
+
+DESCRIPTION
+Found this file in one of the Unduplicitous Corp's PCs Recycle Bin. Can you walk me through this?
+
+MD5("1.img"): 7332683a72ad4bd5631bbaa9889a7531
+
+ATTACHED FILES
+1.img
+
+file given is a filesystem data
+the file was repaired using fsck (actually not needed)
+it was mounted and the files inside were analysed
+using file, the test.zip file was identified as a excel file.
+the flag was in the excel file.
+FLAG:CDDC20{cArv3_C4Rve_CaRV33eE}

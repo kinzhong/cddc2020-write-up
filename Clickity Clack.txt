@@ -1,0 +1,23 @@
+
+Clickity Clack
+949
+GATE 3
+49 SOLVES
+
+DESCRIPTION
+Our trusty Insider XAE had planted a network sniffer in one of Unduplicitous Corp's plant office.
+
+It's our chance to unravel the secrets of this pcap file!
+
+MD5("sniffed.pcap"): 646f16e3bbe86d2eb47f3a855deac62d
+
+ATTACHED FILES
+sniffed.pcap
+
+Search google on pcap UBS ctf 
+Extract keystrokes from usb obtaining the following:
+"password for the docs i'm passing you is IamSuperC0olAmiRiTe!"
+String/binwalk pcap for more info
+extract zip file and use password obtained from keystrokes
+Flag is in flag.txt
+FLAG: CDDC20{YOU_AS_BEE_FUN}

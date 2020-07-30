@@ -1,0 +1,18 @@
+
+[RE (Windows)-2] Dissect Me
+465
+GATE 5
+120 SOLVES
+
+DESCRIPTION
+LET THE GAMES BEGIN!
+
+MD5("DissectMe.exe"): 375c9a7f0b6145955989bbd47ed2630e
+
+ATTACHED FILES
+DissectMe.exe
+
+To look into the exe further, we can use disassemblers such as IDA Pro or Dhidra.
+The flag can be obtained by looking through the data and resource sections.
+
+FLAG: CDDC20{UR-di$$ector}

@@ -1,0 +1,20 @@
+
+How QueeR...
+427
+GATE 4
+124 SOLVES
+
+DESCRIPTION
+We reailsed that Unduplicitous Corp uses this code for their assets tagging. But we can't figure out how exactly to decode it, hmm.
+
+MD5("barcode.gif"): df90bf8d0533e5757ea1fede8743adbc
+
+ATTACHED FILES
+barcode.gif
+
+Reverse searching the image lets us know that the image is a maxicode QR
+Comparing the normal maxicode QRs against the given barcode.gif,
+we can see that it has been manipulated.
+This is also supported after running exiftool on it where it states "Created with GIMP"
+Hence, we just needed to invert the colors and read the QR code
+flag: CDDC20{Qu1Rky_quEeR_qUe57ion4bL3_c0d35s}

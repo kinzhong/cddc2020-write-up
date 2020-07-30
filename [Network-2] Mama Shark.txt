@@ -1,0 +1,20 @@
+
+[Network-2] Mama Shark
+128
+GATE 5
+188 SOLVES
+
+DESCRIPTION
+We have received a new packet for analysis.
+
+Oh damn, there's too much more traffic to look through.. Is there a shortcut to find what we're looking for immediately?
+
+MD5("noisy.pcap"): dabae618e77eb2532d1215700deaffdc
+
+ATTACHED FILES
+noisy.pcap
+
+
+Analyse pcap file and extract all objects. keyword search for CDDC in objects or in pcap file using packet bytes and string.
+
+CDDC20{JUST_GIVE_ME_TL:DR}
