@@ -25,3 +25,5 @@ Since the user and pass are given, this hints towards opening the ova file as a 
 once in the VM we can use the command history to obtain the flag
 the title "Shell History" hints to that
 FLAG: CDDC20{CDDC20{Sh4LL_we_Sh3LL?}}
+
+Note: the challenge file was too large to be uploaded.
